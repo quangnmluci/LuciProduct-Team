@@ -1,0 +1,21 @@
+1. Sử dụng POSTMAN
+    - Get: http://localhost:8080/user
+    - Post: http://localhost:8080/user/
+    - Put: http:/localhost:8080/user/{id}
+    - Delete: http://localhost:8080/user/{id}
+
+2. Json sample
+    {
+        "id": 5,
+        "name": "Tu 44 Ngo",
+        "age": 222,
+        "email": "22@gmail.com"
+    }
+
+
+2. SQL: shema
+    int id;
+    Varchar name;
+    int age;
+    Varchar email;
+
